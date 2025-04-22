@@ -153,7 +153,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData
 			//settings.Applications.Blacklist.Add(new BlacklistApplication { ExecutableName = "webexmta.exe", OriginalName = "webexmta.exe" });
 			//settings.Applications.Blacklist.Add(new BlacklistApplication { ExecutableName = "Zoom.exe", OriginalName = "Zoom.exe" });
 
-			settings.Browser.AdditionalWindow.AllowAddressBar = true;
+			settings.Browser.AdditionalWindow.AllowAddressBar = false;//Hide Address Bar
 			settings.Browser.AdditionalWindow.AllowBackwardNavigation = true;
 			settings.Browser.AdditionalWindow.AllowDeveloperConsole = true;
 			settings.Browser.AdditionalWindow.AllowForwardNavigation = true;
@@ -179,7 +179,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData
 			settings.Browser.DeleteCookiesOnShutdown = true;
 			settings.Browser.DeleteCookiesOnStartup = true;
 			settings.Browser.EnableBrowser = true;
-			settings.Browser.MainWindow.AllowAddressBar = true;
+			settings.Browser.MainWindow.AllowAddressBar = false; //Hide Address Bar
 			settings.Browser.MainWindow.AllowBackwardNavigation = true;
 			settings.Browser.MainWindow.AllowDeveloperConsole = true;
 			settings.Browser.MainWindow.AllowForwardNavigation = true;
@@ -294,7 +294,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData
 
 			settings.System.AlwaysOn = false;
 
-			settings.UserInterface.ActionCenter.EnableActionCenter = false;
+			settings.UserInterface.ActionCenter.EnableActionCenter = true;//Display the lowest end taskbar
 			settings.UserInterface.ActionCenter.ShowApplicationInfo = true;
 			settings.UserInterface.ActionCenter.ShowApplicationLog = false;
 			settings.UserInterface.ActionCenter.ShowClock = true;
@@ -302,7 +302,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData
 			settings.UserInterface.ActionCenter.ShowNetwork = false;
 			settings.UserInterface.LockScreen.BackgroundColor = "#ff0000";
 			settings.UserInterface.Mode = UserInterfaceMode.Desktop;
-			settings.UserInterface.Taskbar.EnableTaskbar = false;
+			settings.UserInterface.Taskbar.EnableTaskbar = true;
 			settings.UserInterface.Taskbar.ShowApplicationInfo = false;
 			settings.UserInterface.Taskbar.ShowApplicationLog = false;
 			settings.UserInterface.Taskbar.ShowClock = true;

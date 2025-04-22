@@ -88,8 +88,8 @@ namespace SafeExamBrowser.Configuration.ConfigurationData.DataMapping
 			//	settings.UserInterface.ActionCenter.ShowClock = show;
 			//	settings.UserInterface.Taskbar.ShowClock = show;
 			//}
-			settings.UserInterface.ActionCenter.ShowClock = false;
-			settings.UserInterface.Taskbar.ShowClock = false;
+			settings.UserInterface.ActionCenter.ShowClock = true;
+			settings.UserInterface.Taskbar.ShowClock = true;
 		}
 
 		private void MapShowKeyboardLayout(AppSettings settings, object value)
@@ -99,8 +99,8 @@ namespace SafeExamBrowser.Configuration.ConfigurationData.DataMapping
 			//	settings.UserInterface.ActionCenter.ShowKeyboardLayout = show;
 			//	settings.UserInterface.Taskbar.ShowKeyboardLayout = show;
 			//}
-			settings.UserInterface.ActionCenter.ShowKeyboardLayout = false;
-			settings.UserInterface.Taskbar.ShowKeyboardLayout = false;
+			settings.UserInterface.ActionCenter.ShowKeyboardLayout = true;
+			settings.UserInterface.Taskbar.ShowKeyboardLayout = true;
 		}
 
 		private void MapShowNetwork(AppSettings settings, object value)
@@ -136,7 +136,7 @@ namespace SafeExamBrowser.Configuration.ConfigurationData.DataMapping
 			//{
 			//	settings.UserInterface.Taskbar.EnableTaskbar = enable;
 			//}
-			settings.UserInterface.Taskbar.EnableTaskbar = false;
+			settings.UserInterface.Taskbar.EnableTaskbar = true; //Show taskbar
 		}
 
 		private void MapShowApplicationLog(AppSettings settings, object value)
